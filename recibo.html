@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<!--
+*****************************************************************
+* Direitos Autorais © 2024 Carlos Júnior. Todos os direitos reservados.
+* Este trabalho é protegido por leis de propriedade intelectual e é de uso exclusivo de CARLOS JÚNIOR.
+* A comercialização deste trabalho sem o consentimento expresso do autor é estritamente proibida e constitui crime sujeito a sanções legais.
+*
+* Desenvolvedor: Carlos Júnior
+* Data de Criação: 13 de Março de 2024
+*
+* Contato:
+*   Telefone: +55 82 99962-3274
+*   E-mail: carlosjunyoor@gmail.com
+*****************************************************************
+-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="src/css/style.css">
+<title>Recibo de Pagamento - ICMS</title>
+</head>
+<body>
+<div class="container">
+  <div class="recibo">
+    <div class="recibo-header">
+      <img src="src/imagem/USGA-01.png" alt="Logo da Empresa" class="logo_usga">
+      <img src="src/imagem/dnv.png" alt="Logo da Certificações" class="logo_dnv">
+      <img src="src/imagem/bonsucro.png" alt="Logo da Certificações" class="logo_bonsucro">
+      <img src="src/imagem/renovabio.png" alt="Logo da Certificações" class="logo_renovabio">
+      <h1>Usina Serra Grande S/A</h1>
+      <h4> AÇÚCAR, ÁLCOOL E ENERGIA.</h4>
+    </div>
+    <h2> Recibo de Pagamento - ICMS</h2>
+    <br>
+    <div class="recibo-info">
+      <p>Recebemos de <strong id="nomeMotorista"></strong> ICMS sobre frete, conforme Nota Fiscal No:_____________ Serie ____ de <span id="dataAtualBr"></span></p>
+      <br>
+      <p><strong>Número do Recibo:</strong> <span id="numeroFicha"></span></p>
+      <p><strong>Base de Cálculo:</strong> R$ <span id="valorFrete"></span></p>
+      <p><strong>Alíquota ICMS:</strong> 12%</p>
+      <p><strong>Imposto ICMS:</strong> R$ <span id="imposto"></span></p>
+      <div class="recibo-footer">
+        <p>Serra Grande, <span id="dataAtualBrDois"></span></p>
+        <br><br>
+        <p>---------------------</p>
+        <p>Assinatura</p>
+        <p>1ª Via</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="recibo">
+    <div class="recibo-header">
+      <img src="src/imagem/USGA-01.png" alt="Logo da Empresa" class="logo_usga">
+      <img src="src/imagem/dnv.png" alt="Logo da Certificações" class="logo_dnv">
+      <img src="src/imagem/bonsucro.png" alt="Logo da Certificações" class="logo_bonsucro">
+      <img src="src/imagem/renovabio.png" alt="Logo da Certificações" class="logo_renovabio">
+      <h1>Usina Serra Grande S/A</h1>
+      <h4> AÇÚCAR, ÁLCOOL E ENERGIA.</h4>
+    </div>
+    <h2> Recibo de Pagamento - ICMS</h2>
+    <br>
+    <div class="recibo-info">
+      <p>Recebemos de <strong id="nomeMotoristaDois"></strong> ICMS sobre frete, conforme Nota Fiscal No:_____________ Serie ____ de <span id="dataAtualBrSeis"></span></p>
+      <br>
+      <p><strong>Número do Recibo:</strong> <span id="numeroFichaDois"></span></p>
+      <p><strong>Base de Cálculo:</strong> R$ <span id="valorFreteDois"></span></p>
+      <p><strong>Alíquota ICMS:</strong> 12%</p>
+      <p><strong>Imposto ICMS:</strong> R$ <span id="impostoDois"></span></p>
+      <div class="recibo-footer">
+        <p>Serra Grande, <span id="dataAtualBrTres"></span></p>
+        <br><br>
+        <p>---------------------</p>
+        <p>Assinatura</p>
+        <p>2ª Via</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="recibo">
+    <div class="recibo-header">
+      <img src="src/imagem/USGA-01.png" alt="Logo da Empresa" class="logo_usga">
+      <img src="src/imagem/dnv.png" alt="Logo da Certificações" class="logo_dnv">
+      <img src="src/imagem/bonsucro.png" alt="Logo da Certificações" class="logo_bonsucro">
+      <img src="src/imagem/renovabio.png" alt="Logo da Certificações" class="logo_renovabio">
+      <h1>Usina Serra Grande S/A</h1>
+      <h4> AÇÚCAR, ÁLCOOL E ENERGIA.</h4>
+    </div>
+    <h2> Recibo de Pagamento - ICMS</h2>
+    <br>
+    <div class="recibo-info">
+      <p>Recebemos de <strong id="nomeMotoristaTres"></strong> ICMS sobre frete, conforme Nota Fiscal No:_____________ Serie ____ de <span id="dataAtualBrCinco"></span></p>
+      <br>
+      <p><strong>Número do Recibo:</strong> <span id="numeroFichaTres"></span></p>
+      <p><strong>Base de Cálculo:</strong> R$ <span id="valorFreteTres"></span></p>
+      <p><strong>Alíquota ICMS:</strong> 12%</p>
+      <p><strong>Imposto ICMS:</strong> R$ <span id="impostoTres"></span></p>
+      <div class="recibo-footer">
+        <p>Serra Grande, <span id="dataAtualBrQuatro"></span></p>
+        <br><br>
+        <p>---------------------</p>
+        <p>Assinatura</p>
+        <p>3ª Via</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="src/js/insert.js"></script>
+<script src="src/js/inserirBd.js"></script>
+</body>
+</html>

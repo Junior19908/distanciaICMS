@@ -1,0 +1,115 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recibo {
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+h2 {
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+
+.recibo-info {
+  margin-bottom: 20px;
+}
+
+.recibo-info p {
+  margin: 5px 0;
+}
+
+.recibo-footer {
+  text-align: right;
+  margin-top: -105px;
+}
+
+.recibo-footer p {
+  margin: 5px 0;
+}
+.recibo-header {
+  position: relative; /* Adiciona posicionamento relativo ao cabeçalho */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recibo-header .logo_usga,
+.recibo-header .logo_dnv,
+.recibo-header .logo_bonsucro,
+.recibo-header .logo_renovabio {
+  position: absolute; /* Posicionamento absoluto para as logos */
+}
+
+.recibo-header .logo_usga {
+  left: 4px; /* Ajuste a posição esquerda conforme necessário */
+  height: 50px;
+}
+
+.recibo-header .logo_dnv {
+  right: 170px; /* Ajuste a posição direita conforme necessário */
+  height: 50px;
+}
+.recibo-header .logo_bonsucro {
+  right: 80px; /* Ajuste a posição direita conforme necessário */
+  height: 50px;
+}
+.recibo-header .logo_renovabio {
+  top: 3px;
+  right: 20px; /* Ajuste a posição direita conforme necessário */
+  height: 50px;
+}
+.recibo-header h1 {
+    margin: 0;
+    color: black;
+    margin-top:-13px;
+    margin-left: -260px;
+}
+h4 {
+  margin: 0;
+  color: black;
+  margin-top:-5px;
+  margin-left: -370px;
+}
+@media print {
+  .recibo-header .logo_usga {
+    position: absolute;
+    left: 4px; /* Ajuste a posição esquerda conforme necessário */
+    height: 50px;
+  }
+  .recibo-header .logo_dnv {
+    right: 150px; /* Ajuste a posição direita conforme necessário */
+    height: 50px;
+  }
+  .recibo-header .logo_bonsucro {
+    right: 60px; /* Ajuste a posição direita conforme necessário */
+    height: 50px;
+  }
+  .recibo-header .logo_renovabio {
+    top: 3px;
+    right: -1px; /* Ajuste a posição direita conforme necessário */
+    height: 50px;
+  }
+  .recibo-header h1 {
+      margin: 0;
+      color: black;
+      margin-top:-13px;
+      margin-left: -160px;
+  }
+  h4 {
+    margin: 0;
+    color: black;
+    margin-top:-5px;
+    margin-left: -270px;
+  }
+}
